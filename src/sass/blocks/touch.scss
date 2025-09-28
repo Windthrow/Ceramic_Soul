@@ -154,6 +154,14 @@
         &__form {
             padding-left: 20px;
         }
+
+        &__decor {
+            animation: dropSpin 3s;
+            animation-timeline: view();
+            animation-range-start: entry;
+            animation-range-end: cover 40%;
+
+        }
     }
 }
 
